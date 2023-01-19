@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My JavaScript Playground</title>
+		<style>
+			button {
+				padding: 8px 12px;
+				border: none;
+				border-radius: 8px;
+				background-color: greenyellow;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+            Problem: Implement a simple add to shopping cart functionality using html and javascript.
+            This example shows how to use the HTML and JavaScript code to add items from a button into
+            a shopping list using javascript.
+        -->
+		<div>
+			<button id="Apple" onclick="addItemToCart('Apple')">Apple</button>
+			<button id="Tomato" onclick="addItemToCart('Tomato')">
+				Tomato
+			</button>
+			<button id="Eggs" onclick="addItemToCart('Eggs')">Eggs</button>
+			<button id="Banana" onclick="addItemToCart('Banana')">
+				Banana
+			</button>
+			<button id="clear" onclick="removeAllItem()">Clear</button>
+			<div id="cart"></div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
